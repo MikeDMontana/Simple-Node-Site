@@ -13,4 +13,11 @@ var $textInput = $('input:text');  // create variable for text input to be used 
     $(this).parent().remove(); //remove task(checked) li from to do list
   });
 
+  $(document).on("dblclick", ".done li", function() {
+      //code here
+    $( this ).fadeOut( "slow", function() {
+  // Animation complete.
+});
+});
+
 });

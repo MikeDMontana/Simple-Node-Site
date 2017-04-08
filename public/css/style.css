@@ -9,7 +9,7 @@ body {
   background-repeat: no-repeat;
   background-position: top left;
   padding: 6em 5em 0em 5em;
-/*  background-size: cover; */
+  background-size: cover;
 }
 
 ul {
@@ -21,10 +21,12 @@ ul {
 h1 {
   color: white;
   text-align: center;
+  text-shadow: 2px 2px #1d1910;
 }
 
 h2 {
   text-align:center;
+  text-shadow: 2px 2px #1d1910;
 }
 
 input {
@@ -79,6 +81,7 @@ padding: 5px 15px;*/
   opacity: 0.59;
   text-align: left;
   padding:3em;
+  margin-bottom: 3em;
 /*  width:30%;
   padding: 5px 15px 20px 15px;
   margin: 20px 3px 5px 230px; */
@@ -97,4 +100,10 @@ padding: 5px 15px;*/
   padding: 5px 15px 20px 15px;
   float: left;
   margin: 20px 10px 5px 0px; */
+}
+
+@media only screen and (max-height: 1000px) {
+    body {
+        background-color: #1d1910;
+    }
 }
