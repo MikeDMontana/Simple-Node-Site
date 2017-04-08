@@ -1,3 +1,100 @@
+
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+  background-image: url("../img/Mountain_Backdrop.jpg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 6em 5em 0em 5em;
+/*  background-size: cover; */
+}
+
+ul {
+  list-style-type: none;
+  color: white;
+  font-size: 18px;
+}
+
 h1 {
-  color:red;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  text-align:center;
+}
+
+input {
+  margin-bottom:1em;
+  padding:0.4em;
+}
+
+.toDoList {
+  padding-left: 0px;
+
+}
+.toDoList li {
+  list-style-type: none;
+  color:white;
+  font-size:larger;
+
+}
+
+.done li {
+  list-style-type:none;
+  color:white;
+  text-decoration: line-through;
+  font-size:larger;
+}
+
+
+#addBtn{
+display: inline-block;
+background-color:#5A352A;
+color:white;
+border-radius: 5px;
+text-align:center;
+width:100%;
+/*margin-left:10px;
+margin-top: 5px;
+padding: 5px 15px;*/
+}
+
+#toDoItem {
+  width:100%;
+}
+
+
+
+#addBtn:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+#toDo {
+  background-color: #D15E34;
+  opacity: 0.59;
+  text-align: left;
+  padding:3em;
+/*  width:30%;
+  padding: 5px 15px 20px 15px;
+  margin: 20px 3px 5px 230px; */
+}
+
+#toDo ul li input {
+  margin-right:0.4em;
+}
+
+#finished {
+  background-color: #608281;
+  opacity:0.64;
+  text-align: left;
+  padding:3em;
+/*  width: 30%;
+  padding: 5px 15px 20px 15px;
+  float: left;
+  margin: 20px 10px 5px 0px; */
 }
